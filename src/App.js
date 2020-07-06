@@ -7,7 +7,8 @@ import Home from './containers/Home/home';
 import Career from './containers/Career/career';
 import Skills from './containers/Skills/skills';
 import Examples from './containers/Examples/examples';
-import Contact from './containers/Contact/contact';
+import exampBurgerBuilder from './components/Example/ExampleDetails/BurgerBuilder';
+//import Contact from './containers/Contact/contact';
 
 //Create a main component and use the Router package to create the routing between components.
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
               <Route path="/career" exact component={Career}/>
               <Route path="/skills" exact component={Skills}/>
               <Route path="/examples" exact component={Examples}/>
+              <Route path="/examples/burgerbuilder" exact component={exampBurgerBuilder}/>
               {/* <Route path="/contact" exact component={Contact}/> */}
               <Route path="/" component={Home}/>
             </Switch>

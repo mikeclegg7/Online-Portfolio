@@ -25,20 +25,21 @@ class examples extends Component {
                 name: "Burger Builder",
                 summary: "I undertook an in depth Udemy Course so as to learn React. The course included 40 hours of videos and a project where we ended up building a Burger Builder. Aspects that were included in the course was the basics of React such as components, containers, state, passing props and imports. The course also involved using Axios to communicate with a server. In our case this was Axios, as well as using Redux, setting up automated tests, deploying to the web and more. This is hosted on Firebase and you can use the link below to see it.",
                 linkURL: "https://react-my-buger-5d7df.web.app/",
+                readMore: '/examples/burgerbuilder',
                 linkTxt: "react-my-buger-5d7df.web.app",
                 img: "burgerBuilder"
             },
             Quiz: {
                 name: "Quizzes",
-                summary: "During the Coronavirus lockdown I wanted to create a little something for my audience on Instagram and website to keep them amused. I therefore created some travel quizzes. These were programmed using jQuery to log the users answer, calculate their score and present a message if they missed any questions. Once they have completed all questions they are then put into a score bucket which is sent to the server using Ajax. The server is updated using a PHP script. Once this has happened there is an Ajax response with the overall counts for completions and score buckets which is then used to build a chart for the user. This quiz was built primarily on the front end and is just for fun, so it is possible for the user to cheat if they really wanted to look into the HTML.",
+                summary: "During the Coronavirus lockdown I wanted to create a little something for my audience on Instagram and website to keep them amused. I therefore created some travel quizzes. These were programmed using jQuery to log the users answer, calculate their score and present a message if they missed any questions. Once they have completed all questions they are then put into a score bucket which is sent to the server using Ajax. The server is updated using a PHP script. Once this has happened there is an Ajax response with the overall counts for completions and score buckets, which is then used to build a chart for the user. This quiz was built primarily on the front end and is just for fun, so it is possible for the user to cheat if they really wanted to look into the HTML.",
                 linkURL: "https://www.travelanddestinations.com/travel-quiz-around-the-world-free-trivia-questions/",
                 linkTxt: "www.travelanddestinations.com/travel-quiz-around-the-world-free-trivia-questions",
                 img: "quiz"
             },
             MyPort: {
                 name: "This website",
-                summary: "This website was built using React based on what I learn through a Udemy course and from practicing making the Burger builder mentioned above. It doesn't overly complicated and uses components, containers, a little bit of state, ComponentWillMount, some animations and other features of React. You can use the link below to go to my GitHub where you can see the code. ",
-                linkURL: "https://github.com/mikeclegg7/portfolio",
+                summary: "This website was built using React based on what I learnt through a Udemy course and from practicing making the Burger Builder mentioned above. It isnt overly complicated and uses components, containers, a little bit of state, ComponentWillMount, useEffect and other features of React. You can use the link below to go to my GitHub where you can see the code. ",
+                linkURL: "https://github.com/mikeclegg7/Online-Portfolio",
                 linkTxt: "GitHub",
                 img: "port"
             }
@@ -63,6 +64,7 @@ class examples extends Component {
                         name={exampleElement.example.name}
                         imgUrl={exampleElement.example.img}
                         summary={exampleElement.example.summary}
+                        readMore={exampleElement.example.readMore}
                         linkUrl={exampleElement.example.linkURL}
                         linkTxt={exampleElement.example.linkTxt}
                     />

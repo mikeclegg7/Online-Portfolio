@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './Example.css';
-
+import { NavLink } from 'react-router-dom';
 import Item from '../UI/Item/Item';
 
 import TAD from '../../assets/images/TAD-Screenshot.jpg'
@@ -22,13 +22,25 @@ const getImageURL = (which) => {
 //Return JSX with the example info and also a screenshot/image and link.
 const example = (props) => {
 
+
+    let readMore = props.readMore ? (
+        <p><strong><NavLink
+                        to={props.readMore} 
+                        exact={props.exact}>
+                        Read more about this project
+                    </NavLink></strong></p>)
+     : "";
+
+     readMore = "";
+
     return (
         <Item>
             <div className={classes.Example_IMG}><img src={getImageURL(props.imgUrl)} alt="Example"/></div>
             <div className={classes.Example_Main}>
                 <h2>{props.name}</h2>
                 <p><strong>Summary: </strong><br/> {props.summary}</p>
-                <p><strong>Link: </strong> <a href={props.linkUrl} target="blank">{props.linkTxt}</a></p>
+                {readMore}
+                <p><strong>Live Link: </strong> <a href={props.linkUrl} target="blank">{props.linkTxt}</a></p>
             </div>
         </Item>
     );
