@@ -1,0 +1,16 @@
+.Textblock {
+    line-height: 1.6;
+}
+.TextBlock p {
+    margin-bottom: 22px;
+}
+
+.Selfie {
+    max-height:250px;
+    margin:20px;
+    float:right;
+}
+.Clearfix {
+    clear:both;
+}
+

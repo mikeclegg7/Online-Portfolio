@@ -1,0 +1,38 @@
+.Example_Container {
+    width: 80%;
+    display:flex;
+    flex-wrap:wrap;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 10px;
+    margin: 10px 0px 20px 20px;
+    box-sizing: border-box;
+}
+
+.Example_Container:hover {
+    box-shadow: 0 0 5px 3px #ccc;
+    cursor: pointer;
+}
+
+.Example_IMG {
+    min-height:100px;
+    vertical-align: middle;
+    padding:20px;
+    width: 150px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.Example_IMG img {
+    max-width: 100px;
+}
+
+.Example_Main {
+    min-height:100px;
+    max-width: 450px;
+}
+
+h2 {
+    font-size:20px;
+}

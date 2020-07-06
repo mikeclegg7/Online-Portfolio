@@ -1,0 +1,38 @@
+.SideDraw {
+    height: 100%;
+    width: 150px;
+    position:fixed;
+    left: 0;
+    background-color: #424242;
+    top: 0;
+    z-index: 200;
+    padding: 32px 16px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-out;
+}
+.Links {
+    margin-top: 200px;
+    text-align:center;
+    color:white;
+}
+
+.CloseButton {
+    color:white;
+    position: fixed;
+    top: 5px;
+    left: 130px;
+}
+
+@media (min-width: 500px) {
+    .SideDraw {
+        display:none;
+    }
+}
+
+.Open {
+    transform: translateX(0);
+}
+
+.Close {
+    transform: translateX(-100%);
+}

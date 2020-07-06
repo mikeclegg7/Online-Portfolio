@@ -1,0 +1,39 @@
+.Header {
+    height: 130px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:white;
+    display: block;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+    color:black;
+}
+.Title {
+    font-family: Raleway,Roboto,Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-size: 34px;
+    font-weight: 200;
+    line-height: 34px;
+    color: black;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:22px;
+    text-align:center;
+    vertical-align:middle;
+    padding:15px;
+    text-decoration: none;
+}
+.TitleSecondary {
+    font-size:20px;
+}
+.Title a
+.Title a:hover,
+.Title a:active,
+.Title a.active {
+    text-decoration: underline;
+    color: black;
+}
