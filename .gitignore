@@ -11,8 +11,8 @@ scripts
 
 .firebase/
 
-.build/
+/build/*
 
 firebase.json
 
-firebaserc
+.firebaserc
