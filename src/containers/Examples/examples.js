@@ -16,7 +16,7 @@ class examples extends Component {
         const Examples = {
             TAD: {
                 name: "Travel and Destinations",
-                summary: "In 2016 I started a Wordpress website called Travel and Destinations. This website now has content designed to provide travel inspiration as well as travel tips. This website now gets a large amount of traffic (approx 100,000 users per month). I spend my free time on improving the site, adding new and custom features, as well as adding new content. You can almost think of it partly as my playground.",
+                summary: "In 2016 I started a Wordpress website called Travel and Destinations. This website now has content designed to provide travel inspiration as well as travel tips. The site now gets a large amount of traffic (approx 100,000 users per month). I spend my free time on improving the site, adding new and custom features, as well as adding new content. You can almost think of it partly as my playground.",
                 linkURL: "https://www.travelanddestinations.com/",
                 linkTxt: "www.travelanddestinations.com",
                 img: "tad" 
@@ -38,7 +38,7 @@ class examples extends Component {
             },
             MyPort: {
                 name: "This website",
-                summary: "This website was built using React based on what I learnt through a Udemy course and from practicing making the Burger Builder mentioned above. It isnt overly complicated and uses components, containers, a little bit of state, ComponentWillMount, useEffect and other features of React. You can use the link below to go to my GitHub where you can see the code. ",
+                summary: "This website was built using React based on what I learnt through a Udemy course and from practicing making the Burger Builder mentioned above. It isn't overly complicated and uses components, containers, a little bit of state, ComponentWillMount, useEffect and other features of React. You can use the link below to go to my GitHub where you can see the code. ",
                 linkURL: "https://github.com/mikeclegg7/Online-Portfolio",
                 linkTxt: "GitHub",
                 img: "port"

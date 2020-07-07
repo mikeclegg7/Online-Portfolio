@@ -8,7 +8,7 @@ const navigationItems = (props) => (
             <NavigationItem link="/career" exact clicked={props.clicked}>Career</NavigationItem>
             <NavigationItem link="/skills" exact clicked={props.clicked}>Skills</NavigationItem>
             <NavigationItem link="/examples" exact clicked={props.clicked}>Examples</NavigationItem>
-            {/* <NavigationItem link="/contact" exact clicked={props.clicked}>Contact</NavigationItem> */}
+            <NavigationItem link="/contact" exact clicked={props.clicked}>Contact</NavigationItem>
     </ul>
 );
 

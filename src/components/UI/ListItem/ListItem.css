@@ -1,0 +1,7 @@
+.Item {
+    border: 1px solid #eee;
+    margin:5px;
+    box-shadow: 0 1px 1px #ccc;
+    padding: 3px;
+    box-sizing: border-box;
+}

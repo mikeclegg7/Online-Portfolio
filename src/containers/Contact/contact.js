@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Button from '../../components/UI/Button/Button';
 import Input from '../../components/UI/Input/Input';
 
+import ContactIMG from '../../assets/images/mail.jpg';
 import classes from './contact.css';
 
 class contact extends Component {
@@ -85,8 +86,14 @@ class contact extends Component {
         //Finally refund a little bit of text and the form.
         return (
             <div>
-                <p>Want to get in contact? Use the form below:</p>
-                {form}
+                <h1>Contact</h1>
+                <div className={classes.ContactContainer}>
+                <div className={classes.ContactIMG}><img src={ContactIMG} alt="Contact"/></div>
+                <div className={classes.ContactInfo}><p>Want to get in contact? Send me a message via any of the below:</p>
+                <p><strong>LinkedIn: </strong> <a href="https://www.linkedin.com/in/mike-clegg-6292aa37/" target="blank">linkedin.com/in/mike-clegg-6292aa37/</a></p>
+                <p><strong>Email: </strong><a href="mailto:mikeclegg7@gmail.com">mikeclegg7@gmail.com</a></p>
+                </div>
+                </div>
             </div>
         );
     }

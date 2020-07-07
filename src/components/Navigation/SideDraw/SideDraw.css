@@ -11,7 +11,7 @@
     transition: transform 0.3s ease-out;
 }
 .Links {
-    margin-top: 200px;
+    margin-top: 110px;
     text-align:center;
     color:white;
 }
@@ -21,6 +21,7 @@
     position: fixed;
     top: 5px;
     left: 130px;
+    cursor: pointer;
 }
 
 @media (min-width: 500px) {

@@ -1,0 +1,10 @@
+.Textblock {
+    line-height: 1.6;
+}
+.TextBlock p {
+    margin-bottom: 22px;
+}
+.SkillsSummaryContainer {
+    display:flex;
+    flex-wrap: wrap;
+}

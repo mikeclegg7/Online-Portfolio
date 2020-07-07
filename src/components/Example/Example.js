@@ -23,6 +23,7 @@ const getImageURL = (which) => {
 const example = (props) => {
 
 
+    //This code checks if there is a readMore prop, if so returns it as part of a nav link, else returns empty.
     let readMore = props.readMore ? (
         <p><strong><NavLink
                         to={props.readMore} 

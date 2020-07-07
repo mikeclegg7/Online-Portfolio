@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Skill from '../../components/Skill/skill';
-
-import classes from '../generalStyles.css';
+import ListItem from '../../components/UI/ListItem/ListItem';
+import classes from './skills.css';
 
 class skills extends Component {
 
@@ -13,7 +13,9 @@ class skills extends Component {
     //Build an object with the different bits of data that we want to show on the skills page. 
     render() {
 
-        const skills = {
+        const SkillsSummaryArray = ['HTML','CSS','Wordpress','jQuery', 'React.js','NPM','PHP','Javascript','Ajax','SASS/SCSS','Firebase', 'Webpack','Google Analytics','Adobe Photoshop','Adobe Lightroom', 'Hotjar'];
+
+        const skillsDetails = {
             HTML: {
                 name: "HTML",
                 experience: "Intermediate",
@@ -57,9 +59,9 @@ class skills extends Component {
                 img: 'php'
             },
             Ajax: {
-                name: "Ajax",
+                name: "Javascript and Ajax",
                 experience: "Beginner - Intermediate",
-                details: "I used Ajax in a quiz on my travel website where I would communicate with the server, update the users score and then retrieve overall counts in the response. I would then use these counts to build a little bar chart to show the user where they ranked against other completes. You can learn more about this quiz in the example section",
+                details: "I used Javascript and Ajax in a quiz on my travel website where I would communicate with the server, update the users score and then retrieve overall counts in the response. I would then use these counts to build a little bar chart to show the user where they ranked against other completes. You can learn more about this quiz in the example section",
                 img: 'ajax'
             },
             Firebase: {
@@ -88,12 +90,21 @@ class skills extends Component {
             },
         };
 
+        //Convert skillSummary to 
+        let listOutput = (
+            <div className={classes.SkillsSummaryContainer}>
+            { SkillsSummaryArray.map(function(item, index){
+                return <ListItem key={index}>{item}</ListItem>;
+            })
+            }</div>
+        );
+        
         //Convert the object into an array so that we can use map later on to pass the props to the component.
         const skillsArray = [];
-        for(let skill in skills) {
+        for(let skill in skillsDetails) {
             skillsArray.push({
                 id: skill,
-                skill: skills[skill]
+                skill: skillsDetails[skill]
             })
         }
 
@@ -118,8 +129,11 @@ class skills extends Component {
         return (
             <div className={classes.Textblock}>
                 <h1>Skills</h1>
-                <p>I first started using web and design technologies at school (over 15 years ago). Since then I have used a variety of software whilst at university, on a professional level during my career, and also for personal enjoyment and projects.<br/><br/>Below are some of my skills, software and technologies I have used, as well as the level I'd say I am at.</p>
-                <br/>
+                <p>I first started using web and design technologies at school (over 15 years ago). Since then I have used a variety of software whilst at university, on a professional level during my career, and also for personal enjoyment and projects.<br/><br/>Below is a list of some of my skills, software and technologies I have used. Further below you'll find more details on what I know for some these..</p>
+                <h3>Skills Summary</h3>
+                {listOutput}
+                <h3>Skills Details</h3>
+                <p>Here is more detail on what I know for specific skills mentioned above.</p>
                 {skillOutPut}
             </div>
         );

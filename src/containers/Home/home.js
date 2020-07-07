@@ -19,7 +19,7 @@ class home extends Component {
                 Here you can learn about my career and experience, about the software and skills I have used and also some of the projects I have worked on.<br/><br/>
                 I am currently living in London UK, but over the last 6 years I have also lived in Toronto Canada, as well as Vienna Austria. I am now settled in London for the foreseeable future.<br/><br/>
                 I have a degree from the University of Kent in Multimedia Technology and Design which was a fantastic course involving programming, photography, filming, 3D-animation and lots of other fun and exciting modules. I got a 2:1 as my final grade.<br/><br/>
-                To learn about my career since then, see skills I have and the technology I am familiar with then click on the various links in the menu above. You can also click on the examples link to learn a little about projects I've worked on.<br/><br/>
+                To learn about my career since then, see skills I have and the technology I am familiar with then see the various links in the menu above. You can also go to my examples page to learn a little about projects I've worked on.<br/><br/>
                 It's great to have you here and I hope you have a good look around. Feel free to get in contact if you're you want to know more.<br/><br/>
                 Regards,<br/>
                 Mike

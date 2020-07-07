@@ -20,3 +20,14 @@
 .Form {
     max-width: 600px;
 }
+
+.ContactContainer {
+    display: flex;  
+    flex-wrap: wrap;
+}
+.ContactIMG {
+    padding:10px;
+}
+.ContactInfo {
+    padding:10px;
+}

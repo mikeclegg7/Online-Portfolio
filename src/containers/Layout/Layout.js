@@ -1,6 +1,6 @@
 import React, { Component } from 'react'; 
 
-import Aux from '../Aux/Aux';
+import Aux from '../../hoc/Aux/Aux';
 import Header from '../../components/Header/Header';
 import NavTopBar from '../../components/Navigation/NavigationTopBar/NavigationTopBar';
 import SideDraw from '../../components/Navigation/SideDraw/SideDraw';
