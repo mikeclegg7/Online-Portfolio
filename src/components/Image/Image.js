@@ -19,8 +19,6 @@ import webpackLogo from '../../assets/images/webpack-icon.jpg';
 import otherIcon from '../../assets/images/programming-general.jpg';
 
 
-//this will take the end of the url as a prop and dynamically import and return the prop as required
-
 const image = (props) => {
     
     const getImageURL = (which) => {
