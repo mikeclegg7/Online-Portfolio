@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import CareerPoint from '../../components/CareerPoint/CareerPoint';
 
-import classes from '../generalStyles.css';
+import classes from './career.css';
 
 class career extends Component {
 

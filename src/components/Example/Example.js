@@ -1,23 +1,9 @@
 import React from 'react';
 import classes from './Example.css';
 import { NavLink } from 'react-router-dom';
+
 import Item from '../UI/Item/Item';
-
-import TAD from '../../assets/images/TAD-Screenshot.jpg'
-import Quiz from '../../assets/images/Quiz-Screenshot.jpg'
-import BB from '../../assets/images/BurgerBuilder-Screenshot.jpg'
-import Port from '../../assets/images/Port-Screenshot.jpg'
-
-//return the image using a little helper function
-const getImageURL = (which) => {
-        switch(which) {
-            case 'tad': return TAD;
-            case 'quiz': return Quiz;
-            case 'burgerBuilder': return BB;
-            case 'port': return Port;
-            default: return null;
-        }
-}
+import Image from '../Image/Image';
 
 //Return JSX with the example info and also a screenshot/image and link.
 const example = (props) => {
@@ -36,7 +22,7 @@ const example = (props) => {
 
     return (
         <Item>
-            <div className={classes.Example_IMG}><img src={getImageURL(props.imgUrl)} alt="Example"/></div>
+            <div className={classes.Example_IMG}><Image whichImage={props.whichImg}/></div>
             <div className={classes.Example_Main}>
                 <h2>{props.name}</h2>
                 <p><strong>Summary: </strong><br/> {props.summary}</p>

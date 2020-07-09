@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Example from '../../components/Example/Example';
 
-import classes from '../generalStyles.css';
+import classes from './examples.css';
 
 
 class examples extends Component {
@@ -62,7 +62,7 @@ class examples extends Component {
                 key={exampleElement.id}>
                     <Example
                         name={exampleElement.example.name}
-                        imgUrl={exampleElement.example.img}
+                        whichImg={exampleElement.example.img}
                         summary={exampleElement.example.summary}
                         readMore={exampleElement.example.readMore}
                         linkUrl={exampleElement.example.linkURL}
