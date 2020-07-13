@@ -16,9 +16,8 @@ const skill = (props) => {
         <p>
           <strong>Level: </strong>
           {props.experience}
-          <br />
-          <strong>Details: </strong> {props.details}
         </p>
+        <strong>Details: </strong> {props.details}
       </div>
     </Item>
   );
