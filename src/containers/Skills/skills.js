@@ -33,7 +33,7 @@ class skills extends Component {
     const skillsDetails = {
       HTML: {
         name: "HTML",
-        experience: "Intermediate",
+        experience: "10+ years",
         details: (
           <p>
             I have been using HTML for over 10 years since I was at school and
@@ -46,7 +46,7 @@ class skills extends Component {
       },
       CSS: {
         name: "CSS",
-        experience: "Intermediate",
+        experience: "10+ years",
         details: (
           <p>
             My level with CSS is pretty good and I love to go into the backend
@@ -58,7 +58,7 @@ class skills extends Component {
       },
       Wordpress: {
         name: "Wordpress",
-        experience: "Intermediate - Advanced",
+        experience: "4 years",
         details: (
           <p>
             My travel website{" "}
@@ -75,7 +75,7 @@ class skills extends Component {
       },
       jQuery: {
         name: "jQuery",
-        experience: "Intermediate",
+        experience: "5 years",
         details: (
           <p>
             I have used jQuery on both a personal and professional level. I
@@ -89,7 +89,7 @@ class skills extends Component {
       },
       React: {
         name: "React",
-        experience: "Beginner",
+        experience: "<1 year",
         details: (
           <p>
             I have been learning React using an online course over the last few
@@ -99,11 +99,12 @@ class skills extends Component {
             learn as required. This site is also built (by me) using React.
           </p>
         ),
+        course: "",
         img: "react",
       },
       NPM: {
         name: "NPM",
-        experience: "Beginner",
+        experience: "<1year",
         details: (
           <p>
             I have been using NPM on my React projects, such as to install new
@@ -115,7 +116,7 @@ class skills extends Component {
       },
       PHP: {
         name: "PHP",
-        experience: "Beginner - Intermediate",
+        experience: "2 years",
         details: (
           <p>
             I haven't used PHP extensively but I do often go into the PHP files
@@ -129,7 +130,7 @@ class skills extends Component {
       },
       Ajax: {
         name: "Javascript and Ajax",
-        experience: "Beginner - Intermediate",
+        experience: "5 years",
         details: (
           <p>
             I used Javascript and Ajax in a quiz on my travel website where I
@@ -144,7 +145,7 @@ class skills extends Component {
       },
       Firebase: {
         name: "Firebase",
-        experience: "Beginner",
+        experience: "<1 year",
         details: (
           <p>
             I used Firebase as part of my React Burger Builder project. This was
@@ -157,7 +158,7 @@ class skills extends Component {
       },
       SCSS: {
         name: "SASS/SCSS",
-        experience: "Beginner",
+        experience: "<1 year",
         details: (
           <p>
             Although I wish I had discovered SASS/SCSS sooner I have recently
@@ -171,7 +172,7 @@ class skills extends Component {
       },
       Webpack: {
         name: "Webpack",
-        experience: "Beginner",
+        experience: "<1 year",
         details: (
           <p>
             I have used Webpack as a bundler and compiler for my React Projects.
@@ -183,7 +184,7 @@ class skills extends Component {
       },
       VariousOther: {
         name: "Other",
-        experience: "Beginner",
+        experience: "Various",
         details: (
           <p>
             In my own time I often try and learn new skills. This is currently
@@ -248,6 +249,36 @@ class skills extends Component {
         </p>
         <h3>Skills Summary</h3>
         {listOutput}
+        <h3>Courses</h3>I spend a lot of my free time learning and developing my
+        skills. Here are some of the courses I have been undertaking or
+        completed. If you click into them you can learn more about what the
+        course included.
+        <ul>
+          <li>
+            <a
+              href="https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass"
+              target="blank"
+            >
+              CSS - The Complete Guide 2020 (incl. Flexbox, Grid & Sass)
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/"
+              target="blank"
+            >
+              React - The Complete Guide (incl Hooks, React Router, Redux)
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.udemy.com/course/the-complete-web-development-bootcamp/"
+              target="blank"
+            >
+              The Complete 2020 Web Development Bootcamp
+            </a>
+          </li>
+        </ul>
         <h3>Skills Details</h3>
         <p>
           Here is more detail on what I know for specific skills mentioned
