@@ -234,7 +234,7 @@ class skills extends Component {
 
     //Finally return the JSX with a little intro and the output Skill component created above.
     return (
-      <div className={classes.Textblock}>
+      <div className={classes.Content}>
         <h1>Skills</h1>
         <p>
           I first started using web and design technologies at school (over 15
@@ -249,10 +249,15 @@ class skills extends Component {
         </p>
         <h3>Skills Summary</h3>
         {listOutput}
-        <h3>Courses</h3>I spend a lot of my free time learning and developing my
-        skills. Here are some of the courses I have been undertaking or
-        completed. If you click into them you can learn more about what the
-        course included.
+        <h3>Courses</h3>
+        <p>
+          I spend a lot of my free time learning and developing my skills. Here
+          are some of the courses I have been undertaking or completed. If you
+          click into them you can learn more about what the course included.
+          Although some of these courses also include some very basic stuff, I
+          purchased the courses to improve my overall knowledge and to fill in
+          missing gaps.
+        </p>
         <ul>
           <li>
             <a

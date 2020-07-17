@@ -1,40 +1,51 @@
+.Wrapper {
+  animation: fadeInLoad 2s;
+}
+@keyframes fadeInLoad {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .FormData {
-    margin: 20px auto;
-    width: 80%;
-    text-align: center;
-    box-shadow: 0 2px 3px #ccc;
-    border: 1px solid #eee;
-    padding: 10px;
-    box-sizing: border-box;
+  margin: 20px auto;
+  width: 80%;
+  text-align: center;
+  box-shadow: 0 2px 3px #ccc;
+  border: 1px solid #eee;
+  padding: 10px;
+  box-sizing: border-box;
 }
 .BtnContainer {
-    width:100%; 
-    text-align:right;
+  width: 100%;
+  text-align: right;
 }
 .Form {
-    max-width: 600px;
+  max-width: 600px;
 }
 
 .ContactContainer {
-    display: flex;  
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 .ContactIMG {
-    padding:10px;
+  padding: 10px;
 }
 .ContactInfo {
-    padding:10px;
+  padding: 10px;
 }
 @media (min-width: 600px) {
-    .FormData {
-        width: 500px;
-    }
+  .FormData {
+    width: 500px;
+  }
 }
 @media (max-width: 670px) {
-    .ContactIMG {
-        max-width:670px;
-        text-align:center;
-        margin-left:auto;
-        margin-right:auto;
-    }
+  .ContactIMG {
+    max-width: 670px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

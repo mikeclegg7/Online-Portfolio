@@ -1,41 +1,42 @@
 .Footer {
-    background-color: #424242;
-    display: block;
-    position:absolute;
-    margin-top:30px;
-    height: 130px;
-    width: 100%;
+  background-color: #424242;
+  display: block;
+  position: absolute;
+  margin-top: 30px;
+  height: 130px;
+  width: 100%;
 }
 .FooterBlock {
-    display:flex;
-    flex-wrap: wrap;
-    width:400px;
-    margin-right:auto;
-    margin-left:auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .FooterText p {
-    padding: 20px;
-    color:white;
-    margin:0px;
-    line-height: 35px;;
-    text-align:left;
-    margin-bottom:0px;
+  padding: 20px;
+  font-size: 16px !important;
+  color: white;
+  margin: 0px !important;
+  line-height: 35px;
+  text-align: left;
+  margin-bottom: 0px;
 }
 .FooterAvatar {
-    padding:15px 0px 0px 0px;
+  padding: 15px 0px 0px 0px;
 }
 .FooterAvatar img {
-    width:100px;
+  width: 100px;
 }
 .Footer a {
-    color:white;
+  color: white;
 }
 .Footer a:hover,
 .Footer a:active,
 .Footer a.active {
-    text-decoration: underline;
-    color: #fff8bf;
+  text-decoration: underline;
+  color: #fff8bf;
 }
 .Avatar {
-    border-radius: 100%;
+  border-radius: 100%;
 }

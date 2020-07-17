@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Route, Switch, withRouter } from "react-router-dom";
 
-import "./App.css";
 import Layout from "./containers/Layout/Layout";
 import Home from "./containers/Home/home";
 import Career from "./containers/Career/career";

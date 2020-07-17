@@ -1,6 +1,11 @@
-.Textblock {
-    line-height: 1.6;
+.Content {
+  animation: fadeInLoad 2s;
 }
-.TextBlock p {
-    margin-bottom: 22px;
+@keyframes fadeInLoad {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

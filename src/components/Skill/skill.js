@@ -14,7 +14,7 @@ const skill = (props) => {
       <div className={classes.Skill_Main}>
         <h2>{props.name}</h2>
         <p>
-          <strong>Level: </strong>
+          <strong>Experience: </strong>
           {props.experience}
         </p>
         <strong>Details: </strong> {props.details}

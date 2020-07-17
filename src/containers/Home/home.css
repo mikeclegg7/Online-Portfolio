@@ -1,16 +1,20 @@
-.Textblock {
-    line-height: 1.6;
+.Content {
+  line-height: 1.6;
+  animation: fadeInLoad 2s;
 }
-.TextBlock p {
-    margin-bottom: 22px;
+@keyframes fadeInLoad {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
-
 .Selfie {
-    max-height:250px;
-    margin:20px;
-    float:right;
+  max-height: 250px;
+  margin: 20px;
+  float: right;
 }
 .Clearfix {
-    clear:both;
+  clear: both;
 }
-

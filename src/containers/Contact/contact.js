@@ -87,7 +87,7 @@ class contact extends Component {
 
     //Finally refund a little bit of text and the form.
     return (
-      <div>
+      <div className={classes.Wrapper}>
         <h1>Contact</h1>
         <div className={classes.ContactContainer}>
           <div className={classes.ContactIMG}>

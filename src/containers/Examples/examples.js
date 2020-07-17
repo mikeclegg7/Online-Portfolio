@@ -78,7 +78,7 @@ class examples extends Component {
 
     //Finally return the JSX with a little intro and the output Example component created above.
     return (
-      <div className={classes.Textblock}>
+      <div className={classes.Content}>
         <h1>Examples</h1>
         <p>
           Here you can find examples of the various projects I have worked on.

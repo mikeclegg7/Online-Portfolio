@@ -12,7 +12,7 @@ class home extends Component {
   //Return the main welcome/homepage text for the user. Include an image which is floated to the right. Add a clearfix at the end to prevent any float issues.
   render() {
     return (
-      <div className={classes.Textblock}>
+      <div className={classes.Content}>
         <p>
           <img
             src={Selfie}

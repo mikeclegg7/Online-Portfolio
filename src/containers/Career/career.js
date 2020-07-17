@@ -138,7 +138,7 @@ class career extends Component {
 
     //Finally return the JSX with a little intro and the output CareerPoint component created above.
     return (
-      <div className={classes.Textblock}>
+      <div className={classes.Content}>
         <h1>Career</h1>
         <p>
           My career has been quite broad so far, allowing me to pick up a range

@@ -1,4 +1,4 @@
-.Textblock {
+.Content {
   line-height: 1.6;
   animation: fadeInLoad 2s;
 }
@@ -9,9 +9,6 @@
   to {
     opacity: 1;
   }
-}
-.TextBlock p {
-  margin-bottom: 22px;
 }
 .SkillsSummaryContainer {
   display: flex;
