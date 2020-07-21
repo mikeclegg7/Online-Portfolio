@@ -12,7 +12,7 @@ const skill = (props) => {
         <Image whichImage={props.whichImg} />
       </div>
       <div className={classes.Skill_Main}>
-        <h2>{props.name}</h2>
+        <h3>{props.name}</h3>
         <p>
           <strong>Experience: </strong>
           {props.experience}

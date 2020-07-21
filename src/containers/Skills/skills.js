@@ -247,9 +247,9 @@ class skills extends Component {
           used. Further below you'll find more details on what I know for some
           these..
         </p>
-        <h3>Skills Summary</h3>
+        <h2>Skills Summary</h2>
         {listOutput}
-        <h3>Courses</h3>
+        <h2>Courses</h2>
         <p>
           I spend a lot of my free time learning and developing my skills. Here
           are some of the courses I have been undertaking or completed. If you
@@ -284,7 +284,7 @@ class skills extends Component {
             </a>
           </li>
         </ul>
-        <h3>Skills Details</h3>
+        <h2>Skills Details</h2>
         <p>
           Here is more detail on what I know for specific skills mentioned
           above.

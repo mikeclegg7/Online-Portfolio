@@ -1,0 +1,15 @@
+.Content {
+  animation: fadeInLoad 2s;
+}
+@keyframes fadeInLoad {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.ExampleBack {
+  font-size: smaller;
+}

@@ -18,6 +18,10 @@ import sassLogo from "../../assets/images/sass-icon.jpg";
 import webpackLogo from "../../assets/images/webpack-icon.jpg";
 import otherIcon from "../../assets/images/programming-general.jpg";
 
+import BB_main from "../../assets/images/Ex-BB-BurgerBuilder-Main.jpg";
+import BB_signIn from "../../assets/images/Ex-BB-Sign-in.jpg";
+import BB_orders from "../../assets/images/Ex-BB-Orders.jpg";
+
 const image = (props) => {
   const getImageURL = (which) => {
     switch (which) {
@@ -53,6 +57,12 @@ const image = (props) => {
         return webpackLogo;
       case "other":
         return otherIcon;
+      case "BB-main":
+        return BB_main;
+      case "BB-sign-in":
+        return BB_signIn;
+      case "BB-orders":
+        return BB_orders;
       default:
         return null;
     }

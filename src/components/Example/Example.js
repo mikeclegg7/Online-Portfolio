@@ -20,15 +20,16 @@ const example = (props) => {
     ""
   );
 
-  readMore = "";
-
   return (
     <Item>
       <div className={classes.Example_IMG}>
         <Image whichImage={props.whichImg} />
       </div>
       <div className={classes.Example_Main}>
-        <h2>{props.name}</h2>
+        <h3>{props.name}</h3>
+        <p>
+          <strong>Tech: </strong> {props.tech}
+        </p>
         <p>
           <strong>Summary: </strong>
           <br /> {props.summary}

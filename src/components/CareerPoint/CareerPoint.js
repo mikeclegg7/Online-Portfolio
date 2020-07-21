@@ -9,7 +9,7 @@ const careerPoint = (props) => {
   return (
     <Item>
       <div className={classes.CareerPoint_Main}>
-        <h2>{props.name}</h2>
+        <h3>{props.name}</h3>
         <p>
           <strong>Position: </strong>
           {props.position}
