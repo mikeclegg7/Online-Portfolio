@@ -1,4 +1,5 @@
 import React from "react";
+import classes from "./Image.css";
 
 import TAD from "../../assets/images/TAD-Screenshot.jpg";
 import Quiz from "../../assets/images/Quiz-Screenshot.jpg";
@@ -68,7 +69,13 @@ const image = (props) => {
     }
   };
 
-  return <img src={getImageURL(props.whichImage)} alt={props.whichImage} />;
+  return (
+    <img
+      src={getImageURL(props.whichImage)}
+      alt={props.whichImage}
+      className={classes.Image}
+    />
+  );
 };
 
 export default image;
